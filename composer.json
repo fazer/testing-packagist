@@ -1,0 +1,20 @@
+{
+    "name": "fazer/testing-packagist",
+    "description": "Otus home work 6",
+    "homepage": "https://github.com/fazer/testing-packagist",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Kovernik",
+            "email": "regafazer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    }
+}
